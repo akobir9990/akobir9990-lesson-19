@@ -1,0 +1,74 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 0;
+}
+.logo__text {
+  font-family: "Poppins-700";
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.nav__list {
+  display: flex;
+  gap: 24px;
+}
+.nav__item a {
+  font-family: "Poppins-400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}
+.nav__item a:active {
+  font-family: "Poppins-600";
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}
+
+.nav__btns {
+  display: flex;
+  gap: 24px;
+}
+.nav__btns button {
+  border: rgba(188, 208, 229, 1);
+  font-family: "Poppins-600";
+  font-size: 16px;
+  color: rgba(23, 58, 86, 1);
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 10px 20px;
+  background: none;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.nav__btns button:hover {
+  border: rgba(188, 208, 229, 1);
+  background: rgba(2, 137, 122, 1);
+  color: white;
+  font-family: "Poppins-600";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}

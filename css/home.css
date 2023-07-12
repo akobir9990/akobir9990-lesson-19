@@ -1,0 +1,64 @@
+.home__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__title {
+  font-family: "Poppins-700";
+  font-size: 40px;
+  color: rgba(34, 52, 61, 1);
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 18px;
+}
+.home__subtitle {
+  font-family: "Poppins-400";
+  font-size: 18px;
+  color: rgba(34, 52, 61, 1);
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.home__btns {
+  display: flex;
+}
+
+.home__btns button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 53px;
+  background: none;
+  color: rgba(2, 137, 122, 1);
+  transition: 0.2s;
+  border: none;
+  border-radius: 5px;
+  gap: 10px;
+
+  font-family: "Poppins-600";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: underline;
+}
+.home__btns button:hover {
+  width: 175px;
+  height: 53px;
+  background: none;
+  background: rgba(2, 137, 122, 1);
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Poppins-700";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+}
+.home__btns button:hover svg path {
+  fill: rgba(255, 255, 255, 1);
+}
